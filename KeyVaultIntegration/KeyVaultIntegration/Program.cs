@@ -87,13 +87,13 @@ namespace KeyvaultInt
             RunInstaller(installerArgs1, installerArgs2);
             MoveOneBoxConfigBack(key);
 
-            //var key1 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "scmtwebADpwd").GetAwaiter().GetResult().Value;
-            //var key3 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "esbpwebADpwd").GetAwaiter().GetResult().Value;
+            //var key1 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "").GetAwaiter().GetResult().Value;
+            //var key3 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "").GetAwaiter().GetResult().Value;
 
 
-            //var key2 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "scmdwebADpwd").GetAwaiter().GetResult().Value;
+            //var key2 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "").GetAwaiter().GetResult().Value;
 
-            //var key4 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "AxScmServiceADAppEncryptedClientSecret").GetAwaiter().GetResult().Value;
+            //var key4 = keyClient.GetSecretAsync(ConfigurationManager.AppSettings["KeyVault.Vault.Address"], "").GetAwaiter().GetResult().Value;
             //Console.WriteLine("The values are : " + key0 + ", " + key2 + ", " + key3 + ", " + key4);
             //Console.ReadLine();
 
