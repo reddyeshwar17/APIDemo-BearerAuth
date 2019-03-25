@@ -176,7 +176,7 @@ namespace KeyvaultInt
 
 
             //Encrypted Secret key for the AxScmService Ad App
-           // string clientSecretKey = "AxScmServiceADAppEncryptedClientSecret";
+           // string clientSecretKey = "test";
 
             string clientSecret = "";
             //keyvault.GetSecretString(clientSecretKey);
